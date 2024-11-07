@@ -1,0 +1,53 @@
+from django.shortcuts import render,HttpResponse
+from rest_framework.response import Response
+from rest_framework.decorators import api_view, authentication_classes,permission_classes
+from rest_framework.renderers import JSONRenderer, TemplateHTMLRenderer
+from rest_framework import serializers
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.viewsets import ModelViewSet
+from rest_framework import generics
+from rest_framework import status
+from django.core.mail import send_mail
+import requests
+from modelscope import AutoTokenizer, AutoModelForCausalLM
+import torch
+import re
+
+path = "../CHATAD"
+tokenizer = AutoTokenizer.from_pretrained(path)
+model = AutoModelForCausalLM.from_pretrained(path, torch_dtype=torch.bfloat16, device_map="auto")
+
+# Create your views here.
+
+@api_view(['POST'])
+def chat(request):
+    global model
+    data = request.data
+    question = data["question"]
+    
+    system_message = """"""
+    # input_text = """What are some common Exogenous Additive in anaerobic digestion? What is the impact on biogas production? What is its optimal range and what is the mechanism of its effect on performance? Please elaborate. """
+    input_text = question
+
+    messages = [
+        {"role": "system", "content": system_message},
+        {"role": "user", "content": input_text}
+    ]
+    text = tokenizer.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True
+    )
+    input_ids = tokenizer([text], return_tensors="pt").to("cuda")
+
+    outputs = model.generate(**input_ids,max_new_tokens=4028)
+    extracted_content = tokenizer.decode(outputs[0]).split("<start_of_turn>model")[1].split("<eos>")[0]
+    final_content = extracted_content.strip()
+    # Removing Markdown formatting
+    clean_content = re.sub(r'\*\*|\*\*', '', final_content)  # Remove bold formatting
+    clean_content = re.sub(r'\n+', '\n', clean_content)  # Remove extra new lines
+    ct = clean_content.strip()
+    print(ct)
+    
+    return Response(data = ct)

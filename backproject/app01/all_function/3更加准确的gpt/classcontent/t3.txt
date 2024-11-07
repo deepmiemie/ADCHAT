@@ -1,0 +1,47 @@
+Micro-Organisms
+The impact of various types of microorganisms in anaerobic digestion studies is an important topic regarding microbial diversity, functions and interactions. Different types of microorganisms play key roles in the anaerobic digestion process. The following is a detailed description of some common microbial types and their effects, including specific microbial names:
+1, Methanogenic bacteria (Methanogens):
+Specific microbial names: Methanogenic bacteria such as Methanobacterium, Methanococcus, Methanosarcina, etc.
+Impact: Methanogens are the most important microorganisms in anaerobic digestion, they convert organic matter into methane gas.
+Detailed analysis: These microorganisms are responsible for methane production in the final stage of anaerobic digestion, and their activity and diversity can directly affect the production and quality of methane gas. Different species of methanogenic bacteria may differ in the rate of gas production and the stability of methane production. Therefore, it is very important to quantitatively regulate different species of methanogenic bacteria in anaerobic digestion system.
+2、Acidogenic bacteria (Acidogens):
+Specific microbial name: Acidogenic bacteria such as Clostridium, Bacillus, Propionibacterium, etc.
+Impact: acidifying bacteria will be complex organic waste decomposition into organic acids.
+Detailed analysis: These microorganisms play a role in the early stages of anaerobic digestion, the waste degradation into more digestible intermediate products, to create conditions for the subsequent gas production stage.
+3, acetic acid bacteria (Acetogens):
+Specific microbial name: Acetic acid producing bacteria such as Acetobacterium, Syntrophobacter and so on.
+Impact: Acetic acid bacteria will convert organic acids into acetic acid. Acetic acid-producing bacteria contribute to the production of acetic acid in anaerobic digestion, which is a precursor to methane production.
+Detailed analysis: They participate in the oxidation of organic matter, producing acetic acid and hydrogen, which provide substrates for subsequent methane production. Appropriate amount of acetic acid generating bacteria help to maintain the appropriate ratio of acetic acid and methane, and promote methane production.
+4, Sulfate Reducing Bacteria (Sulfate Reducers):
+Specific microorganism name: such as Desulfovibrio, etc.
+Impact: Sulfate Reducers can competitively consume hydrogen and organic matter, reducing methane production.
+Detailed analysis: Their presence can inhibit methane generation and adversely affect waste treatment efficiency. Therefore, it is necessary to quantitatively control their number in the system to maximize methane production.
+5, Nitrite Reducing Bacteria (Nitrate Reducers):
+Specific microbial name: such as Paracoccus, Pseudomonas, etc..
+Impact: Nitrate Reducers competitively consume hydrogen and organic matter to reduce methane production.
+Detailed analysis: their presence can lead to the production of nitrogen gas in the waste treatment process, rather than methane.
+6. Denitrifying bacteria (Denitrifiers):
+Specific microbial name: such as Rhodobacter, Thiobacillus, etc..
+Impact: denitrifying bacteria can utilize nitrates and nitrites in the waste, reducing the efficiency of nitrogen removal.
+Detailed analysis: They are usually not desired microorganisms as they reduce methane production and may lead to incomplete waste treatment.
+7. Aromatic Dehydrogenase Microbes (Aromatic Dehydrogenase Microbes):
+Specific microbial names: e.g. Syntrophus, Smithella, etc.
+Impact: These microorganisms can degrade organic substances that are difficult to degrade, such as aromatic compounds.
+Detailed analysis: They play an important role in the treatment of anaerobic systems containing difficult-to-biodegrade wastes, improving the digestion of organic matter.
+8, cellulose degrading bacteria (Cellulolytic Bacteria):
+Specific microbial name: Cellulolytic bacteria such as Clostridium thermocellum and Ruminococcus.
+Quantitative impact: These microorganisms help to break down difficult to degrade wastes such as cellulose and increase digestible organic matter.
+Detailed analysis: Moderate amounts of cellulose-degrading bacteria can increase the rate of waste decomposition, but quantitative control is needed to avoid excessive waste decomposition and extrusion gas production steps. By quantitatively monitoring the presence and number of these bacteria, their contribution to the rate of cellulose degradation can be determined.
+9, Nitrite-Oxidizing Bacteria (Nitrite-Oxidizing Bacteria):
+Specific microbial name: Nitrite-oxidizing bacteria such as Nitrospira.
+Quantitative impact: Nitrite-oxidizing bacteria can oxidize nitrite to nitrate, reducing ammonia and nitrite.
+Detailed analysis: the presence of nitrite oxidizing bacteria can reduce nitrite concentration, the presence of the right amount of nitrite oxidizing bacteria to help maintain the appropriate level of ammonia and nitrite to support methane production.
+10, nitrifying bacteria (Nitrifying Bacteria):
+Specific microbial name: Nitrifying bacteria such as Nitrosomonas and Nitrobacter.
+Quantitative impact: Nitrifying bacteria may lead to nitrification and nitrosation of ammonia nitrogen, reducing ammonia nitrogen can be used for methane generation.
+Detailed analysis: By quantitatively controlling the number of nitrifying bacteria, the loss of ammonia nitrogen can be reduced and the utilization of ammonia nitrogen can be improved.
+11, yeast:
+Specific microorganism name: Yeast (Yeast)
+Quantitative impact: Yeast may be involved in the fermentation and acetic acid production of organic waste.
+Detailed analysis: The presence of yeast can influence the fermentation process, but its quantity needs to be adjusted according to the type of waste and treatment objectives.
+Different types of microorganisms interact in anaerobic digestion systems, and their presence and activity can directly affect the degradation efficiency, type of gas production and gas yield of the waste. Therefore, understanding and managing the microbial community is key to optimizing the anaerobic digestion process. Researchers have adapted microbial community composition and operating conditions to achieve specific waste treatment and resource recovery goals.
